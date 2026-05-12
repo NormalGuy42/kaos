@@ -1,7 +1,7 @@
 <script lang="ts">
+	import { DISCORD_URL } from '$lib/constants';
 	import { onMount } from 'svelte';
 
-	const DISCORD_URL = 'https://discord.gg/vMt5EThCx';
 	const TWITTER_URL = 'https://x.com/kaos';
 
 	const heroText = 'AI Powered Investing,\nBuilt to Grow Your Portfolio';
